@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+</head>
+
+<body>
+    <div id="splashscreen">
+        <div class="splashBox">
+            <!-- Div to hold all elments -->
+                <div class="title"><h1>Hip Hop Trivia Game!</h1></div>
+
+                <div class="timer"><i>You have 60 seconds to complete 5 Questions!</i></div>
+
+        <!-- Button to start game -->
+                <button class = "start">Start</button>
+
+        </div>
+    </div>
+
+        <!-- Questions Appear -->
+            <div class="container">
+                <div class="form" id="questions"></div>
+
+        <!-- Button to end game -->
+                <button id="doneButton">Done</button>
+
+        <!-- Text when counter is finished -->
+                <div class="message" id="messageDiv"></div>
+    
+        <!-- div to display the score of the game -->
+                <div class="score" id="Score"></div>
+            </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
